@@ -1,4 +1,4 @@
-# Tabletop
+# Template
 
 A lightweight React + TypeScript + Vite starter for apps that need a clean base and Cloudflare integration.
 
