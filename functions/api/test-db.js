@@ -8,7 +8,7 @@ export async function onRequest(context) {
       {
         status: 405,
         headers: { 'Content-Type': 'application/json' },
-      }
+      },
     )
   }
 
@@ -24,7 +24,7 @@ export async function onRequest(context) {
       }),
       {
         headers: { 'Content-Type': 'application/json' },
-      }
+      },
     )
   } catch (error) {
     return new Response(
@@ -35,7 +35,7 @@ export async function onRequest(context) {
       {
         status: 500,
         headers: { 'Content-Type': 'application/json' },
-      }
+      },
     )
   }
 }

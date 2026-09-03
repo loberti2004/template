@@ -16,7 +16,7 @@ export function getErrorResponse(message) {
     {
       status: 400,
       headers: { 'Content-Type': 'application/json' },
-    }
+    },
   )
 }
 
@@ -29,6 +29,6 @@ export function getCorrectResponse(data = {}) {
     {
       status: 200,
       headers: { 'Content-Type': 'application/json' },
-    }
+    },
   )
 }

@@ -1,7 +1,7 @@
 import { onRequest as testDbApi } from './api/test-db'
 
 export default {
-  async fetch(request, env, _ctx) {
+  async fetch(request, env) {
     const url = new URL(request.url)
     console.log('Request received:', request.method, url.pathname)
 
@@ -20,7 +20,7 @@ export default {
         {
           status: 405,
           headers: { 'Content-Type': 'application/json' },
-        }
+        },
       )
     }
 
