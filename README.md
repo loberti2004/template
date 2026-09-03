@@ -1,4 +1,4 @@
-# Tabletop Template
+# Tabletop
 
 A lightweight React + TypeScript + Vite starter for apps that need a clean base and Cloudflare integration.
 
@@ -49,9 +49,9 @@ npm run build
 npm run dev:cf
 ```
 
-## Template notes
+## Project notes
 
-This repo is intended to be used as a starter template for new projects. It keeps the app minimal and production-friendly while leaving room to build the actual product on top of it.
+This repository keeps the app minimal and production-friendly while leaving room to build the actual product on top of it.
 
 ## License
 
